@@ -153,5 +153,4 @@ if StatusResponse.status_code != 200:
     sys.exit()
 
 
-print("ScanId " + json_data.get("ScanId") + " is now running")
-
+print ("Scan running ...\n")
