@@ -25,3 +25,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run Uleska container automation
         run: python3 ${GITHUB_WORKSPACE}/.github/uleska_container.py --application 32551943-9071-4e0d-b419-a32d5ae78e6a --imagename dvwa --tag t1 --url https://github.com/infoslack/docker-dvwa.git
+
+      # Runs a single command using the runners shell
+      - name: Run Uleska container automation
+        run: python3 ${GITHUB_WORKSPACE}/.github/uleska_container.py --application 32551943-9071-4e0d-b419-a32d5ae78e6a --imagename alpine --tag latest --url https://github.com/infoslack/docker-dvwa.git
